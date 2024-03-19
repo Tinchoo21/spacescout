@@ -1,0 +1,261 @@
+.intro {
+    position: relative;
+    color: #ffffff;
+}
+
+.intro .owl-theme .owl-dots {
+    position: absolute;
+    bottom: 70px;
+    right: 50px;
+}
+
+.intro .owl-theme .owl-dots .owl-dot span {
+    background: #ffffff;
+    border: 0px solid #ffffff;
+}
+
+.intro .owl-theme .owl-dots .owl-dot:hover span {
+    background-color: #2eca6a;
+}
+
+.intro .owl-theme .owl-dots .owl-dot.active span {
+    background-color: #2eca6a;
+}
+
+/* .intro .intro-item {
+    padding-top: 2rem;
+} */
+
+/* Assuming the navbar height is 60px */
+.intro-carousel {
+    height: calc(100vh - 130px);
+    overflow: hidden;
+}
+
+.carousel-item-a {
+    height: calc(100vh - 130px);
+}
+
+
+
+.intro .carousel-item-a.bg-image {
+    background-attachment: scroll;
+}
+
+.intro .intro-content {
+    position: absolute;
+    top: 20%;
+}
+
+.intro .intro-body {
+    padding-left: 1rem;
+}
+
+.intro .intro-body .price-a {
+    color: #ffffff;
+    padding: 1rem 1.5rem;
+    border: 2px solid rgba(52, 223, 129, 255);
+    border-radius: 50px;
+    text-transform: uppercase;
+    letter-spacing: 0.030em;
+}
+
+.intro .intro-body .price-a:hover {
+    color: #ffffff;
+    background-color: rgba(52, 223, 129, 255);
+    transition: color 0.5s ease-in, background-color 0.3s ease-in;
+}
+
+
+.intro .spacial {
+    -webkit-animation-delay: .2s;
+    animation-delay: .2s;
+    color: #ffffff;
+}
+
+.intro .intro-title-top {
+    -webkit-animation-delay: .6s;
+    animation-delay: .6s;
+    margin-bottom: 1rem;
+    font-size: .9rem;
+    color: #ffffff;
+    letter-spacing: .05em;
+}
+
+.intro .intro-title {
+    transition-duration: 9s !important;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 3.8rem;
+    text-transform: uppercase;
+}
+
+.intro .intro-subtitle {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.intro .intro-subtitle.intro-price {
+    padding-top: 1rem;
+    font-size: 1.2rem;
+}
+
+/*------/ Intro Single /------*/
+
+.intro-single {
+    padding: 12rem 0 3rem;
+}
+
+.intro-single .title-single-box {
+    padding: 1rem 0 1rem 2rem;
+}
+
+.intro-single .title-single-box {
+    border-left: 3px solid #2eca6a;
+}
+
+.intro-single .title-single-box .title-single {
+    font-weight: 600;
+    font-size: 2.2rem;
+}
+
+.intro-single .breadcrumb-box {
+    padding: 1rem 0 0 .5rem;
+}
+
+.intro-single .breadcrumb {
+    background-color: transparent;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.slick-dots {
+    bottom: 20px;
+}
+
+.slick-dots li button:before {
+    color: gray;
+    font-size: 12px;
+    opacity: 1;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #fff;
+}
+
+.intro-title,
+.intro-title-top,
+.intro-subtitle {
+    color: #FFFFFF;
+    z-index: 2;
+    position: relative;
+}
+
+.intro-title {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.intro-subtitle {
+    font-size: 18px;
+}
+
+.intro-title,
+.intro-title-top,
+.intro-subtitle {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-item-a.intro-item.bg-image {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.intro-subtitle a {
+    text-decoration: none;
+}
+
+@media (min-width: 576px) {
+    .intro .intro-title {
+        font-size: 3.5rem;
+    }
+
+    .intro .intro-subtitle.intro-price {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .intro-single {
+        padding-top: 9rem;
+    }
+    
+}
+@media (max-width: 576px) {
+    .intro .intro-title {
+        font-size: 3.5rem;
+    }
+    .intro .intro-content {
+        position: absolute;
+        top: 0;
+    }
+    
+}
+
+@media (min-width: 992px) {
+
+    .intro .intro-title-top {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+      }
+    
+      .intro .intro-title {
+        font-size: 4.5rem;
+      }
+    
+      .intro .intro-subtitle.intro-price {
+        padding-top: 3rem;
+      }
+    
+      .intro-single .title-single-box .title-single {
+        font-size: 2.5rem;
+      }
+}
+
+@media (min-width: 768px) {
+
+    .intro .intro-body {
+    padding-left: 2rem;
+  }
+
+  .intro .intro-title-top {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .intro .intro-title {
+    font-size: 4rem;
+  }
+
+  .intro .intro-subtitle {
+    font-size: 2.5rem;
+  }
+
+  .intro .intro-subtitle.intro-price {
+    padding-top: 2rem;
+    font-size: 1.5rem;
+  }
+
+  .intro-single .title-single-box .title-single {
+    font-size: 2.1rem;
+  }
+}

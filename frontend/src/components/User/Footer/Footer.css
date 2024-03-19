@@ -1,0 +1,29 @@
+.footer {
+  background-color: #f0f2f5;
+  color: #333;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 16px;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer p {
+  margin: 10px 0 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+.social-media-links {
+  margin-bottom: 10px;
+}
+
+.social-media-links a {
+  margin: 0 10px;
+  color: #333;
+  font-size: 24px;
+}
+
+.social-media-links a:hover {
+  color: #007bff;
+}
