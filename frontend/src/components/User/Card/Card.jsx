@@ -3,6 +3,7 @@ import "./Card.css";
 import { FaHome, FaBed, FaRulerCombined, FaTag } from "react-icons/fa";
 
 const Card = ({
+  id,
   title,
   description,
   pimage,
@@ -27,7 +28,7 @@ const Card = ({
         <p className="card-info">
           <FaTag /> ${price}
         </p>
-        <a href="/" className="btn btn-primary">
+        <a href={`/propertydetail/${id}`} className="btn btn-primary">
           Details
         </a>
       </div>

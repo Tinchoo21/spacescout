@@ -1,0 +1,216 @@
+.property-details{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.carousel-container img{
+    width: 100%;
+    border-radius: 20px;
+    height: 450px;
+    object-fit: contain;
+}
+/* .property-details-container{
+    background-color: #f0f2f5;
+} */
+.property-details-container .slick-dots {
+    position: static;
+}
+.property-details-container .slick-dots li {
+    width: auto;
+}
+.slick-dots img{
+    width: 80px;
+    height: 50px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.property-description h2{
+    color: rgba(6, 36, 64, 255);
+}
+.special-info{
+
+    background-color: rgba(6, 36, 64, 255);
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px 0;
+    color: white;
+    font-weight: 500;
+
+}
+.info-item{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+
+}
+#price h2, #price svg{
+    color: rgba(52, 223, 129, 255);
+}
+.info-items{
+    display: flex;
+    gap: 10px;
+}
+.property-detail-accesory{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+.property-detail{
+    list-style-type: none;
+}
+.property-accessory{
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.property-accessory li{
+    margin-bottom: 10px;
+}
+
+.property-accessory label{
+    display: flex;
+    align-items: center;
+    font-size: large;
+    gap: 5px;
+}
+.property-detail label{
+    display: flex;
+    align-items: center;
+    font-size: large;
+    gap: 5px;
+}
+.accessory-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.mapdetails{
+    display: flex;
+    justify-content: center;
+}
+
+.mapdetails iframe{
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.info-address-year{
+    display: flex;
+    gap: 5px;
+}
+@media (max-width: 576px) {
+
+    .property-details{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 20px;
+        padding: 20px;
+    }
+    .info-items {
+        display: block;
+    }
+    .info-address-year{
+        display: block;
+    }
+}
+
+#reqtourbtn{
+    border-radius: 5px;
+    padding: 5px 15px;
+    color: white;
+    background-color: darkred;
+    border: none;
+    cursor: pointer;
+}
+
+.modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px; /* Adjust the maximum width as needed */
+    width: 100%;
+}
+
+/* Close Button */
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Modal Title */
+.modal-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Labels */
+.modal-container label {
+    display: block;
+    font-weight: bold;
+}
+
+/* Input Fields */
+.modal-container input[type="text"],
+input[type="email"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+/* Modal Buttons */
+.modal-buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Button Styles */
+.modal-button {
+    padding: 8px 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    margin-left: 10px; 
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+    .modal-button.cancel {
+        background-color: #ccc;
+        color: #333;
+    }
+
+    .modal-button.confirm {
+        background-color: #ff0000;
+        color: #fff;
+    }
+.modal-content h2 {
+    text-align: center;
+    font-size: x-large;
+    font-weight: 600;
+}

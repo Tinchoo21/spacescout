@@ -6,6 +6,7 @@ import Pagination from "rc-pagination";
 import { IoArrowBackOutline, IoArrowForward } from "react-icons/io5";
 import { GoSearch } from "react-icons/go";
 import axios from "axios";
+import Footer from "../../../components/User/Footer/Footer";
 
 // const cardData = [
 //   {
@@ -423,6 +424,7 @@ const Properties = () => {
           />
         ) : null}
       </div>
+      <Footer/>
     </>
   );
 };

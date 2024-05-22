@@ -1,0 +1,75 @@
+.lines{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    justify-content: center;
+    outline: 3px dashed #34df81;
+    text-align: center;
+    width: 80%;
+    border-radius: 10%;
+}
+.icon-text {
+    font-size: 20px;
+}
+.imgupload {
+    display: none;
+}
+.containerImage{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-height: 340px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.containerImage .image {
+    width: 90%;
+    margin-right: 5px;
+    height: 100px;
+    position: relative;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.containerImage .image span {
+    position: absolute;
+    top: -2px;
+    right: 9px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.containerImage .image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.icon-left-side {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+}
+.icon-text span{
+    cursor: pointer;
+}
+.btnSaveDiv{
+    text-align: center;
+}
+.btnSave{
+    border-radius: 50px;
+    color: #fff;
+    background-color: #062440;
+    letter-spacing: .03em;
+    padding: 1rem 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    cursor: pointer;
+}

@@ -68,7 +68,7 @@ const Panel = () => {
                                 {property.area} m2
                               </h1>
                               <p className="intro-subtitle intro-price">
-                                <a href="/">
+                                <a href={`/propertydetail/${property.id}`}>
                                   <span className="price-a">
                                     Sale | $ {property.price}
                                   </span>
